@@ -1,0 +1,23 @@
+div {
+    margin: 10px 0 0 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+div:hover {
+    background: orange;
+    transition: 200ms;
+}
+
+.numberOne,
+.numberThree,
+.numberFive {
+    background: black;
+}
+
+.numberTwo,
+.numberFour {
+    background: blue;
+}
